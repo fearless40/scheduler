@@ -1,0 +1,16 @@
+
+
+struct PropertyDefinition {
+    String displayname;
+    String description;
+    String defaultvalue;
+};
+
+template <class T>
+class PropertyView {
+public:
+    PropertyView( PropertyDefinition & pd );
+    PropertyView(); 
+    
+    
+};
